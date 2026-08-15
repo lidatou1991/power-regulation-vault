@@ -4,7 +4,7 @@ An Obsidian-compatible, source-first knowledge base designed to continuously abs
 
 ## Version
 
-Current version: **v0.1 — Knowledge Base Foundation**.
+Current version: **v0.3.2 — Latest Law Discovery**.
 
 ## Principles
 
@@ -21,5 +21,4 @@ Current version: **v0.1 — Knowledge Base Foundation**.
 - Current focus: **Distribution Regulation**
 - Planned domains: Transmission, Generation, Market, Reliability, Tariff, and broader Regulation topics
 
-This repository contains only the v0.1 scaffold. It does not yet contain verified regulatory conclusions.
-
+The repository now includes verified Chile VAD knowledge. Version v0.3.4 corrects the v0.3.2 enactment error: Ley No. 21.833 makes 2024-2030 a transitional six-year VAD period while preserving the normal four-year rule and identifying 2030-2034 as the next period. The CNE's **VAD 2024-2028** title is retained as a legacy process name, not current legal effect.

@@ -64,3 +64,57 @@ Never fabricate missing knowledge. Add unresolved questions as checkboxes in `08
 
 Do not install Obsidian, call external APIs, create embeddings or vector databases, build RAG or chatbots, scrape websites, download PDFs automatically, or generate unsourced regulatory claims. v0.1 is only a reliable, extensible, traceable, time-aware Markdown scaffold.
 
+## 10. Mandatory CURRENT-Claim Verification
+
+Before marking a regulatory conclusion `current`, complete this pipeline:
+
+```text
+Source Authority Check
+↓
+Effective Date Check
+↓
+Latest Amendment Check
+↓
+Superseding Law Check
+↓
+Transitional Provision Check
+↓
+Cross-source Conflict Check
+↓
+CURRENT conclusion
+```
+
+A statement must not be marked `current` merely because it comes from an official source, is the latest source stored in the vault, remains displayed on a regulator webpage, or encountered no contradiction during the first search. Search actively and reverse chronologically for later authority through the stated verification cutoff. Distinguish enactment, publication, and effective date from parliamentary approval or official announcements about a bill.
+
+## 11. Negative Verification
+
+Important CURRENT conclusions must record the date through which later amendments and superseding or transitional rules were checked. Use:
+
+```yaml
+verified_through: YYYY-MM-DD
+superseding_check: completed
+```
+
+Use `superseding_check: incomplete` when the later-authority search is unfinished, and do not present the conclusion as definitively current. Preserve the searched sources and any conflict between a legacy administrative label and later legal effect.
+
+## 12. Enactment-Chain Verification
+
+For regulatory propositions based on pending or recently approved legislation, do not assign `current` status solely from a parliamentary or project-status page. Where relevant, verify the complete chain:
+
+```text
+Bill / Boletín
+↓
+Congressional approval
+↓
+Presidential promulgation
+↓
+Diario Oficial publication
+↓
+Assigned law number
+↓
+Effective date
+↓
+Final enacted text
+```
+
+If a parliamentary workflow page remains stale after the Diario Oficial has published the law, the published law controls. Record the stale workflow metadata and the published enactment as a source conflict; never silently ignore or delete the stale official record. Use `enactment_check: completed` for a CURRENT conclusion when this chain is relevant and has been verified. The field is optional where no legislative enactment chain is relevant.

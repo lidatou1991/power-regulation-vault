@@ -4,21 +4,46 @@ country: Chile
 jurisdiction: national
 regulator: Comisión Nacional de Energía (CNE)
 topic: Valor Agregado de Distribución
-status: unknown
-source_type: book
-source: "[[Simetria Mercado Electrico Nacional Olivares 2020]]"
-publication_date: 2020-01
-effective_date: unknown
+status: current
+source_type: law_and_official_regulatory_documents
+source: "[[Ley 21.833 Proteccion Tarifaria Electrica]]"
+publication_date: multiple
+effective_date: 2026-07-31
 last_verified: 2026-08-14
-confidence: medium
+verified_through: 2026-08-14
+superseding_check: completed
+enactment_check: completed
+confidence: high
 ---
 # VAD
 
 ## Current Rule
 
-Current status not yet verified from an authoritative current source.
+### Definition and normal cycle
 
-The 2020 book is a historical reference. It cannot establish which VAD rules, tariff cycle, methodology, or decree are currently effective.
+The VAD is the distribution-cost component of regulated end-user prices. Under LGSE articles 181-182, it is calculated for each Typical Distribution Area from model-company fixed administration, billing and customer-service costs; average energy and power losses; and standard investment, maintenance and operating costs for facilities adapted to demand. **Status: CURRENT.** Source: [[LGSE DFL 4 Current 2026]], arts. 181-182.
+
+The normal statutory term of the tariff formulas is four years. If that term expires before replacement formulas are published, the existing formulas and indexation continue by law; once the replacement is published, it is deemed effective from the prior term's expiry and the resulting billing differences are credited or debited with interest. **Status: CURRENT general rule.** Source: [[LGSE DFL 4 Current 2026]], arts. 187 and 192.
+
+### Legally applicable period, current process, and formulas actually applied
+
+The active tariff-setting docket retains the legacy CNE administrative name **“VAD 2024-2028.”** As of 14 August 2026, the latest reviewed CNE entry was Resolution No. 58/2026, approving a replacement preliminary technical report and opening a renewed observation stage; the docket did not list a final technical report or final tariff decree. The label identifies the process as initiated and is not evidence of its current legal period. **Status: LEGACY ADMINISTRATIVE PROCESS NAME / procedure not final.** Sources: [[VAD 2024-2028 Official Process]]; [[Resolucion Exenta 58 2026 VAD 2024-2028]]; [[VAD 2024-2028 Legacy Name and Legal Effect]].
+
+The latest published VAD formula decree is Decree No. 5T for 4 November 2020-3 November 2024. Pending publication of replacement formulas, those formulas continue with indexation under LGSE article 192. This carryover is distinct from the legal period for which the pending decree must set replacement formulas. **Status: CURRENT statutory carryover.** Sources: [[Decreto 5T VAD 2020-2024]]; [[LGSE DFL 4 Current 2026]], arts. 187, 190 and 192.
+
+Ley No. 21.833 was promulgated on 24 July 2026 and published in the Diario Oficial on 31 July 2026. Its third transitional article requires the decree originating in the 2024-2028 process to establish formulas **instead for the six-year period 2024-2030**, using the existing study, preliminary report, bases, and observations, with later CNE reports implementing the extension. This is a **CURRENT TRANSITIONAL EXCEPTION**, not a permanent replacement of the normal four-year term. The next VAD period is the four-year period **2030-2034**. Sources: [[Ley 21.833 Proteccion Tarifaria Electrica]], third and fourth transitional articles; [[VAD 2024-2028 Legacy Name and Legal Effect]].
+
+### Cost study, Empresa Modelo, and institutional roles
+
+The historical two-study weighting is no longer the current mechanism. LGSE articles 183 and 183 bis require **one** cost study, tendered and wholly financed by the CNE and performed by an independent consultant. A technical committee supervises the study and includes distributor, Ministry of Energy, and CNE representatives. The CNE reviews, corrects, and adapts the consultant's study, issues a preliminary report, receives observations and disputes, and ultimately sends its final report and tariff formulas to the Ministry; eligible disputes may go to the Panel de Expertos. The Ministry fixes the formulas by decree. **Status: CURRENT.** Sources: [[LGSE DFL 4 Current 2026]], arts. 183, 183 bis and 190; [[VAD 2024-2028 Official Process]].
+
+The [[Empresa Modelo]] remains the statutory efficiency benchmark. The study assumes efficient investment and management while considering defined constraints faced by real distributors, including customer and demand location, applicable quality standards, road and geographic obstacles, technology penetration, quality changes, and vegetation. **Status: CURRENT.** Source: [[LGSE DFL 4 Current 2026]], arts. 182-183.
+
+### Latest verified legal changes
+
+Law No. 21.194 permanently reformed the study and profitability framework in 2019, including replacement of the CNE/company weighted studies with the single-study process. Law No. 21.667 created transitional tariff-normalization and settlement rules. Law No. 21.804 did not amend LGSE articles 181-192. Ley No. 21.833 is the decisive later authority: it preserves the general four-year architecture while creating the specific 2024-2030 transition and a new mechanism for relevant historical balances. Sources: [[Ley 21.194 Distribution Tariff Reform]]; [[Ley 21.667 VAD Transitional Measures]]; [[Ley 21.804 Sistemas Medianos]]; [[Ley 21.833 Proteccion Tarifaria Electrica]].
+
+The enactment chain for Bulletin 18.384-08 was verified through congressional approval on 22 July, presidential promulgation on 24 July, and Diario Oficial publication as Ley No. 21.833 on 31 July 2026. The stale Cámara workflow label is preserved as a conflict but does not override the published law. **Negative verification:** later amendments, superseding rules, and transitional provisions checked through 14 August 2026; `superseding_check: completed`; `enactment_check: completed`. Sources: [[Boletin 18.384-08 Proteccion Tarifaria]]; [[Ley 21.833 Proteccion Tarifaria Electrica]].
 
 ## Historical Rules
 
@@ -40,11 +65,15 @@ For the 2016-2020 period, the book reports six Typical Distribution Areas, one r
 
 ### 2019 short distribution law as described in 2020
 
-The book reports that Law No. 21.194, promulgated in December 2019, replaced the two-study weighting mechanism with one independently procured cost study supervised through a committee process, while retaining efficiency and model-company assumptions and adding consideration of constraints faced by real distributors. The book presents the 2020-2024 process as the first application of this change. **Status: historical account; subsequent implementation and continued validity unknown.** Source: [[Simetria Mercado Electrico Nacional Olivares 2020|Olivares (2020)]], §§6.5.3-6.5.3.2, pp. 658-662.
+The book reports that Law No. 21.194, promulgated in December 2019, replaced the two-study weighting mechanism with one independently procured cost study supervised through a committee process, while retaining efficiency and model-company assumptions and adding consideration of constraints faced by real distributors. The book presents the 2020-2024 process as the first application of this change. **Status: HISTORICAL ACCOUNT, now corroborated by official law and implementation documents.** Sources: [[Simetria Mercado Electrico Nacional Olivares 2020|Olivares (2020)]], §§6.5.3-6.5.3.2, pp. 658-662; [[Ley 21.194 Distribution Tariff Reform]]; [[Decreto 5T VAD 2020-2024]].
 
 ## Transitional Rules
 
-Olivares describes the 2020-2024 tariff process as the intended first application of Law No. 21.194 and notes that a broader distribution reform was expected. Whether these provisions operated as described, were extended, replaced, or remain relevant has not been verified from official sources. **Status: unknown.** Source: [[Simetria Mercado Electrico Nacional Olivares 2020|Olivares (2020)]], §6.5.3.2, pp. 660-662.
+Law No. 21.194's article 13 transitory froze VAD price levels in pesos. Law No. 21.667 ended that freeze in stages: immediately for cooperatives through the first-semester 2024 mechanism; for other distributors through capped adjustments in the second half of 2024 and first half of 2025; and with normal updating from the second-semester 2025 average-node-price decree. These were temporary normalization rules, not a permanent change to the four-year tariff cycle. **Status: TRANSITIONAL.** Sources: [[Ley 21.194 Distribution Tariff Reform]]; [[Ley 21.667 VAD Transitional Measures]].
+
+For the debts arising from the relevant reliquidations for the 2020-2024 distribution process (and the 2022-2026 medium-system process), Ley No. 21.833 brings payment within the FET/MPC framework. SEC must determine the amounts actually owed to each distributor in pesos and report the resulting **Saldo de Normalización Tarifaria (Saldo NT)**. On instruction from the Ministry of Finance, the Treasury issues transferable payment instruments in pesos or UF. The **Componente NT del Cargo MPC** begins at CLP 5/kWh on 1 January 2028, subject to the statutory semiannual adjustment and possible CNE sufficiency adjustment, and continues until the Saldo NT is extinguished; total payment may not be later than the last business day of 2035. **Status: CURRENT TRANSITIONAL MECHANISM.** Source: [[Ley 21.833 Proteccion Tarifaria Electrica]], arts. 1(8), 2(1)-(6), and second transitional article.
+
+Ley No. 21.833 separately addresses balances caused by delayed publication of the decree for the 2024-2030 period: SEC must account for them, they are incorporated into each distributor's tariff level in the four-year **2030-2034** VAD process, and from 31 July 2026 they are adjusted only by CPI. This rule should not be conflated with the Saldo NT mechanism for the earlier balances. **Status: CURRENT TRANSITIONAL RULE.** Source: [[Ley 21.833 Proteccion Tarifaria Electrica]], fourth transitional article.
 
 ## Regulatory Timeline
 
@@ -53,16 +82,25 @@ See [[VAD Regulatory Timeline]].
 ## Sources
 
 - [[Simetria Mercado Electrico Nacional Olivares 2020]] - historical reference published in January 2020; relevant scope: Chapter 6, especially §§6.3-6.7.
+- [[LGSE DFL 4 Current 2026]] - current consolidated legal framework, arts. 181-192.
+- [[Ley 21.194 Distribution Tariff Reform]] - 2019 permanent procedural reform and temporary freeze.
+- [[Ley 21.667 VAD Transitional Measures]] - staged tariff normalization and treatment of 2020-2024 formulas.
+- [[Ley 21.804 Sistemas Medianos]] - latest effective LGSE amendment checked; no amendment to arts. 181-192.
+- [[Ley 21.833 Proteccion Tarifaria Electrica]] - decisive enacted transition and historical-balance mechanism.
+- [[Decreto 5T VAD 2020-2024]] - latest published VAD formula decree.
+- [[VAD 2024-2028 Official Process]] - current CNE process docket.
+- [[Resolucion Exenta 58 2026 VAD 2024-2028]] - latest reviewed preliminary technical report.
+- [[Boletin 18.384-08 Proteccion Tarifaria]] - historical bill record and stale-workflow conflict preserved after enactment.
+- [[Ministry 2026 Ordenemos la Cuenta]] - official description of the proposed 2030 extension and 2028-2035 balance mechanism.
 
 ## Related Topics
 
 - [[Empresa Modelo]]
 - [[CNE]]
 - [[VAD Regulatory Timeline]]
+- [[VAD 2024-2028 Legacy Name and Legal Effect]]
 
 ## Open Questions
 
-- What VAD tariff cycle is currently valid under authoritative law and CNE materials?
-- Does any CNE-enterprise weighted study mechanism remain legally relevant after the historical framework described by Olivares?
-- What is the latest official VAD tariff-setting process and decree?
-- Which provisions currently govern VAD components, profitability review, and Typical Distribution Areas?
+- When will the CNE issue the final technical report and the Ministry publish the formulas originating in the 2024-2028 process?
+- Which official implementing instruments, including SEC's statutory report and updated CNE/Treasury rules, have been issued under Ley No. 21.833?
