@@ -140,3 +140,9 @@ Approval applies to the reviewed source or Change Candidate only. It does not au
 Personal/internal knowledge and published subscriber knowledge are different trust levels. `status: current` describes the assessed legal or regulatory state; it does not make a note publishable. Publication requires explicit human approval and the publication checklist.
 
 Published knowledge must retain source traceability and its verification cutoff. Commercial or public display must follow the source's recorded rights metadata; missing or `unknown` rights metadata requires review, not a legal assumption. Future product interfaces must never expose unpublished internal notes, drafts, Source Intake records, or Change Candidates as verified subscriber knowledge.
+
+## 15. Source Storage Policy
+
+Source metadata and Source Notes belong in Git; original source binaries belong in the local source archive and are ignored by default. Do not add large PDFs, archives, office files, media, or other original binaries to Git history. Do not use Git LFS for this repository.
+
+Removing a binary from Git must not remove or alter the local archival copy, its Source Note, bibliographic data, original filename, citation details, or any knowledge traceability. A local source archive is internal research custody only: it is not public or published content and conveys no publication approval or rights determination. Follow `SOURCE_STORAGE_POLICY.md` for exceptions and size checks.

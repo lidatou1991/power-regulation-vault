@@ -15,6 +15,12 @@ Current version: **v0.4.2 — Product-Ready Knowledge Model**.
 - Original sources remain separate from analyzed knowledge.
 - Unknown facts are recorded as research gaps, never guessed.
 
+## Source Storage
+
+Git stores source metadata, Source Notes, bibliographic and citation details, and the knowledge derived from sources. Original source binaries are a separate local archive and are ignored by default, especially large PDFs and other binary formats. A Source Note may continue to record the exact local filename even when that file is not tracked by Git.
+
+Separating a binary from Git does not weaken traceability: every regulatory conclusion must still cite its Source Note and authoritative source details. The local source archive is internal research material; its presence does not mean that the binary or derived knowledge is approved for public or subscriber publication. See [Source Storage Policy](SOURCE_STORAGE_POLICY.md).
+
 ## Scope
 
 - Supported countries: **Chile** and **Brazil**

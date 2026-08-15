@@ -4,3 +4,26 @@ __pycache__/
 .pytest_cache/
 .obsidian/workspace*.json
 
+# Local source archive: keep source metadata in Git, not original binaries.
+# Existing binaries already tracked by Git are unaffected by these rules.
+/01_Sources/**/*.pdf
+/01_Sources/**/*.PDF
+/01_Sources/**/*.zip
+/01_Sources/**/*.7z
+/01_Sources/**/*.rar
+/01_Sources/**/*.doc
+/01_Sources/**/*.docx
+/01_Sources/**/*.xls
+/01_Sources/**/*.xlsx
+/01_Sources/**/*.ppt
+/01_Sources/**/*.pptx
+/01_Sources/**/*.epub
+/01_Sources/**/*.mobi
+/01_Sources/**/*.mp3
+/01_Sources/**/*.mp4
+/01_Sources/**/*.mov
+/01_Sources/**/*.avi
+
+# Manual intake binaries are also local-only until reviewed and converted to
+# source metadata/notes.
+/00_Inbox/pdf/**
