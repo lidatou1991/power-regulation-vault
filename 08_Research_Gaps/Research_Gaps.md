@@ -2,9 +2,11 @@
 
 ## Chile
 
-- [ ] Import the authoritative sources for the current VAD regulatory mechanism.
+- [ ] Verify the currently valid VAD tariff cycle from CNE / law.
+- [ ] Verify whether the historical CNE-enterprise weighted study mechanism remains valid.
+- [ ] Verify the current legal basis for Empresa Modelo.
+- [ ] Identify the latest official VAD tariff-setting process.
 - [ ] Establish the complete regulatory timeline of VAD.
-- [ ] Verify the current VAD tariff period and transitional rules.
 
 ## Brazil
 
@@ -13,4 +15,3 @@
 - [ ] Establish the precise relationship between Parcela A and Parcela B.
 - [ ] Verify the current RTP and RTA methodologies.
 - [ ] Verify the current Fator X methodology.
-
