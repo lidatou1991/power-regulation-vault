@@ -118,3 +118,25 @@ Final enacted text
 ```
 
 If a parliamentary workflow page remains stale after the Diario Oficial has published the law, the published law controls. Record the stale workflow metadata and the published enactment as a source conflict; never silently ignore or delete the stale official record. Use `enactment_check: completed` for a CURRENT conclusion when this chain is relevant and has been verified. The field is optional where no legislative enactment chain is relevant.
+
+## 13. Human Review Gate
+
+No source intake or automated discovery process may directly alter a `current` regulatory claim. Source discovery, source intake, Change Candidate creation, human review, and knowledge updates are separate stages.
+
+A `current` claim may be changed only after all of the following have been completed:
+
+1. authoritative source verification;
+2. effective-date verification;
+3. superseding-law check;
+4. enactment-chain verification when relevant;
+5. conflict assessment;
+6. creation of a Change Candidate; and
+7. explicit human approval.
+
+Approval applies to the reviewed source or Change Candidate only. It does not automatically make every statement in a source `current` knowledge.
+
+## 14. Publication Trust Boundary
+
+Personal/internal knowledge and published subscriber knowledge are different trust levels. `status: current` describes the assessed legal or regulatory state; it does not make a note publishable. Publication requires explicit human approval and the publication checklist.
+
+Published knowledge must retain source traceability and its verification cutoff. Commercial or public display must follow the source's recorded rights metadata; missing or `unknown` rights metadata requires review, not a legal assumption. Future product interfaces must never expose unpublished internal notes, drafts, Source Intake records, or Change Candidates as verified subscriber knowledge.
