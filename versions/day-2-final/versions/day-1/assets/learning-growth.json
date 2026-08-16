@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "visibility": "public_aggregate",
+  "source_series": "data/learning_metrics",
+  "snapshots": [
+    {
+      "date": "2026-08-15",
+      "label": "Day 1",
+      "textbook_pages_processed": 742,
+      "formal_knowledge_nodes": 52,
+      "wiki_relationships": 637,
+      "historical_knowledge_nodes": 34,
+      "verification_items": 38,
+      "evidence_ready_candidates": 8,
+      "scores": {
+        "textbook_knowledge": 91.0,
+        "approved_current_regulation": 48.22,
+        "evidence_ready_shadow_internal_only": 69.9
+      }
+    }
+  ]
+}
+
+
