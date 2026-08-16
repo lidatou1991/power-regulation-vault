@@ -1,0 +1,27 @@
+{
+  "version": "day-1-final",
+  "cutoff": "2026-08-15",
+  "method": "Conservative ordinal maturity: 0 absent, 1 source leads only, 2 historical or partial knowledge, 3 verified current knowledge with material gaps, 4 strong verified coverage with timeline and benchmark evidence.",
+  "baseline": {"source_notes": 13, "knowledge_nodes": 22, "current_nodes": 7, "historical_nodes": 3, "open_research_gaps": 7, "wiki_links": 344},
+  "final_inventory": {"source_notes": 30, "knowledge_nodes": 60, "current_verified_proxy": 7, "historical_nodes": 41, "needs_review_candidates": 14, "verification_queue_total": 17, "verification_queue_attempted": 10, "verification_queue_remaining": 7, "wiki_links": 864},
+  "domains": [
+    {"domain":"Distribution tariffs / VAD","maturity":4,"reason":"Multiple primary sources, current/transitional verification, timeline and strong benchmark performance."},
+    {"domain":"Service quality / continuity","maturity":2,"reason":"Official 2024 NTD and 2026 superseding check support a NEEDS_REVIEW candidate; no current claim is approved."},
+    {"domain":"SAIDI / SAIFI","maturity":2,"reason":"Current definitions, exclusions and 2026 thresholds are sourced in a NEEDS_REVIEW candidate."},
+    {"domain":"Customer protection","maturity":2,"reason":"Both statutory compensation interfaces are sourced in a NEEDS_REVIEW candidate; approval and implementation details remain open."},
+    {"domain":"Billing / complaints","maturity":1,"reason":"Source leads exist but no approved atomic current-law node."},
+    {"domain":"Electricity-dependent customers","maturity":1,"reason":"A Source Intake and Change Candidate exist; Human Review Gate prevents current-law promotion."},
+    {"domain":"Emergency / severe weather","maturity":1,"reason":"Source registry leads only; current obligations are not verified."},
+    {"domain":"Vegetation / operations","maturity":2,"reason":"Vegetation is verified as an Empresa Modelo constraint; operational duties remain open."},
+    {"domain":"Smart metering / AMI","maturity":1,"reason":"Source lead only; no verified mandate or implementation schedule."},
+    {"domain":"Distributed generation / Net Billing","maturity":2,"reason":"Historical concession-duty account exists; current limits and valuation rules are open."},
+    {"domain":"PMGD","maturity":1,"reason":"The 2026 amendment chain and 9 MW boundary are verified, but controlling amended text is not fully extracted."},
+    {"domain":"Distribution planning / investment","maturity":1,"reason":"Efficient-investment VAD treatment is known; binding planning duties are not."},
+    {"domain":"Institutions","maturity":1,"reason":"Entity stubs exist but organic mandates are not source-verified."}
+  ],
+  "review_queue": {"evidence_ready_candidates": 14, "verification_items": 17, "attempted": 10, "remaining": 7, "approved_candidates": 0},
+  "multi_source": {"professional_reports_studied": 3, "academic_works_studied": 3, "signals_retained": 3, "intelligence_objects": 18, "cross_source_cases": 3, "explicit_controversies": 1},
+  "scores": {"foundation_knowledge": 91.0, "deep_mechanism_separate_test": 92.0, "current_regulatory_intelligence_approved": 48.22, "evidence_ready_shadow_internal_only": 69.90},
+  "benchmark": {"questions": 50, "score_before": 48.22, "score_after_approved": 48.22, "evidence_ready_shadow": 69.90, "scale": 100, "strongest_domain": "Distribution tariffs / VAD", "weakest_domains": ["Billing / complaints","Electricity-dependent customers","Emergency / severe weather","Smart metering / AMI","distribution planning / investment"]},
+  "publication_note": "This file contains aggregate evaluation data only. It excludes Research Gap details, Change Candidates, local paths and unapproved current-law claims."
+}

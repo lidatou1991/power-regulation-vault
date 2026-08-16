@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "visibility": "public_aggregate",
+  "source_series": "data/learning_metrics",
+  "snapshots": [
+    {
+      "date": "2026-08-15",
+      "label": "Day 1 Final",
+      "textbook_pages_processed": 742,
+      "formal_knowledge_nodes": 60,
+      "wiki_relationships": 864,
+      "source_notes": 30,
+      "historical_knowledge_nodes": 41,
+      "verification_items": 17,
+      "verification_attempted": 10,
+      "verification_remaining": 7,
+      "evidence_ready_candidates": 14,
+      "multi_source_intelligence_objects": 18,
+      "cross_source_intelligence_cases": 3,
+      "scores": {
+        "foundation_knowledge": 91.0,
+        "deep_mechanism_separate_test": 92.0,
+        "approved_current_regulation": 48.22,
+        "evidence_ready_shadow_internal_only": 69.9
+      }
+    }
+  ]
+}
